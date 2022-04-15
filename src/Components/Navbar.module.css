@@ -3,7 +3,7 @@ NavLink{
 }
 
 .navbar{
-  height: 5rem;
+  height: 8rem;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-around;
@@ -14,6 +14,8 @@ NavLink{
   position: fixed;
   top: 0%;
   z-index: 1;
+  border-bottom: 2px solid #b2f8ef;
+  margin-left: 2rem;
 }
 
 .navbar > *{
@@ -23,4 +25,48 @@ NavLink{
   color: #b2f8ef;
   text-decoration: none;
   border-top: 2px solid #b2f8ef;
+}
+.logo{
+  width: 160px;
+  height: 150px;
+  background-color: #c2f0ea;
+  border-radius: 22% 78% 74% 26% / 55% 49% 51% 45%;
+  margin-top: 1.8rem;
+  margin-left: -3.8rem;
+}
+
+.cart__icon {
+  position: relative;
+  width: max-content;
+  /* margin-left: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+}
+
+.cart__icon i {
+  cursor: pointer;
+}
+
+.item__count {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background-color: red;
+  z-index: 10;
+  border-radius: 50%;
+  font-size: 14px;
+  height: 18px;
+  width: 18px;
+  top: -50%;
+  right: -50%;
+}
+
+.userImg{
+margin-left: 75rem;
+margin-top: 0.5rem;
+width: 40px;
+border: 2px solid white;
+border-radius: 50%;
 }

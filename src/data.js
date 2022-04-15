@@ -59,6 +59,127 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    _id: "7",
+    name: "Smart Watch",
+    image:
+      "https://img-s2.onedio.com/id-61147156d1f96ea754c8bf14/rev-0/w-620/f-jpg/s-8004e8c15d104e6c94ce8512dad963b6844eee32.jpg",
+
+    price: 29.99,
+    rating: 3,
+    numReviews: 11,
+  },
+  {
+    _id: "8",
+    name: "Walkie Talkie",
+    image:
+      "https://ae01.alicdn.com/kf/Ha9c85be6116049719aa3d6fd70ff3765q/ocuk-telefonu-Walkie-Talkie-oyuncaklar-elektronik-aletler-pil-kumandal-telsiz-kablosuz-walkie-talkie-interkom-konu.jpg_Q90.jpg_.webp",
+
+    price: 19.99,
+    rating: 4,
+    numReviews: 26,
+  },
+  {
+    _id: "9",
+    name: "Washing Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/ps/beyazesya_1602827236.jpg",
+
+    price: 89.99,
+    rating: 4,
+    numReviews: 18,
+  },
+  {
+    _id: "10",
+    name: "Filter Coffee Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/76480/764805761_0.jpg?1650013",
+
+    price: 14.99,
+    rating: 2,
+    numReviews: 6,
+  },
+  {
+    _id: "11",
+    name: "Expresso Coffee Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/77201/772014690_0.jpg?1650013",
+
+    price: 39.99,
+    rating: 5,
+    numReviews: 38,
+  },
+  {
+    _id: "12",
+    name: "Inox Tea Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/74206/742069203_0.jpg?1650012",
+
+    price: 21.99,
+    rating: 4,
+    numReviews: 71,
+  },
+  {
+    _id: "13",
+    name: "Tea Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/76069/760695043_0.jpg?1650013",
+
+    price: 34.99,
+    rating: 5,
+    numReviews: 96,
+  },
+  {
+    _id: "14",
+    name: "Airfryer Fried Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/77201/772014690_0.jpg?1650013",
+
+    price: 19.99,
+    rating: 5,
+    numReviews: 41,
+  },
+  {
+    _id: "15",
+    name: "Siemens Multifunctional Coffee Machine",
+    image:
+      "https://mcdn01.gittigidiyor.net/54545/545450370_1.jpg?1650013",
+
+    price: 32.99,
+    rating: 5,
+    numReviews: 121,
+  },
+  {
+    _id: "16",
+    name: "Lenovo Gearbest",
+    image:
+      "https://scontent.fesb9-1.fna.fbcdn.net/v/t1.6435-9/136047646_930358984370902_6618543844059539732_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=Em_lMdAjbQ8AX_YFuZs&_nc_ht=scontent.fesb9-1.fna&oh=00_AT_oZIrdql_I5DiT8FNpnprZdKgDjz69knBEMf0S5LCWnw&oe=6280A439",
+
+    price: 24.99,
+    rating: 4,
+    numReviews: 16,
+  },
+  {
+    _id: "17",
+    name: "Air conditioning",
+    image:
+      "https://mcdn01.gittigidiyor.net/75828/758286506_0.jpg?1650014",
+
+    price: 59.99,
+    rating: 5,
+    numReviews: 41,
+  },
+  {
+    _id: "18",
+    name: "Remote Controller",
+    image:
+      "https://ae01.alicdn.com/kf/HTB1rb7KXhrvK1RjSszeq6yObFXa3/S-per-mobil-Tablet-telefon-PC-Anti-h-rs-zl-k-h-rs-z-cihaz-cep.jpg_Q90.jpg_.webp",
+
+    price: 12.99,
+    rating: 3,
+    numReviews: 11,
+  },
 ];
 
 export default products;
+
