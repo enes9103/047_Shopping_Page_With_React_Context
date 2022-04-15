@@ -5,8 +5,6 @@ const Home = () => {
   return (
     <div className={styles.home}>
       
-
-      
     </div>
   );
 };
