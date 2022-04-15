@@ -20,3 +20,8 @@
 .h1{
     padding: 2rem 1rem 0rem 1rem;
 }
+
+.slider{
+background-color: red;
+width: 10rem;
+}
