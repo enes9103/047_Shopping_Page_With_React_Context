@@ -1,0 +1,19 @@
+form {
+  width: 380px;
+  height: 550px;
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+  margin-left: 100px;
+  margin-top: 40px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 100, 0.8), rgba(0, 0, 100, 0.8)),
+    url(../../../assets/cardbackground.jpg);
+  /* padding: 55px; */
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+p {
+  padding-top: 15px;
+  color: #c2f0ea;
+}
