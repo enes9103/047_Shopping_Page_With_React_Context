@@ -54,9 +54,7 @@ function Register() {
   return (
     <Container
       sx={{
-        // marginTop: "3rem",
-        // mt: 6,
-        height: "calc(100vh - 3rem)",
+        height: "calc(91vh - 1rem)",
         textAlign: "center",
         position: "relative",
       }}
@@ -66,7 +64,7 @@ function Register() {
         sx={{
           position: "absolute",
           marginTop: "150px",
-          marginLeft: "calc(50% - 50px)",
+          marginLeft: "calc(50% - 30px)",
           bgcolor: "primary.main",
           // bgcolor: blue[500],
         }}
@@ -76,6 +74,7 @@ function Register() {
       <Typography
         sx={{
           paddingTop: "200px",
+          marginLeft: "30px",
           color: "#C2F0EA",
         }}
         variant="h4"
@@ -155,7 +154,7 @@ function Register() {
           </form>
         )}
       </Formik>
-      <p>
+      <p className="account">
         Already have an account?
         <Link
           sx={{

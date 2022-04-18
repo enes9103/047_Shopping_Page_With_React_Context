@@ -13,7 +13,7 @@ const Footer = () => {
 
     return (
         <div className={classes.root} id="footer">
-            <Grid container >
+            <Grid container alignItems="center">
                 <Grid item xs={12} sm={12}>
                     <Box style={{display: 'flex', justifyContent: 'center'}}>
                         <Box> <a href="https://github.com/enes9103" target="_blank" rel="noopener noreferrer" style={{color:'white'}}> <GitHubIcon className={classes.icon} /> </a> </Box>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <Grid item sm={1}></Grid>
             </Grid>
 
-            <Grid container justify="center">
+            <Grid container justify="center" alignItems="center">
                 <Grid item xs={12}>
                     <p className={classes.footer__copyRight}>Developed by Enes ÜNLÜ <small>Copyright © 2022</small> </p>
                 </Grid>
