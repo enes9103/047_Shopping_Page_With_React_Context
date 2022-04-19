@@ -5,8 +5,8 @@ import HomeScreen from "../../screens/HomeScreen";
 const Products = () => {
   return (
     <div className={styles.productContainer}>
-    <Cart />
-    <HomeScreen />
+      <Cart />
+      <HomeScreen />
     </div>
   );
 };

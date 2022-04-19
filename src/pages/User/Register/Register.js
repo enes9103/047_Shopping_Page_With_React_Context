@@ -95,7 +95,7 @@ function Register() {
           handleBlur,
         }) => (
           <form onSubmit={handleSubmit}>
-            <Grid container spacing={3}>
+            <Grid container spacing={5}>
               <Grid item xs={12}>
                 <TextField
                   name="username"
@@ -106,6 +106,7 @@ function Register() {
                   helperText={touched.username && errors.username}
                   error={touched.username && Boolean(errors.username)}
                   onBlur={handleBlur}
+                  // style={{ color: "white" }}
                 />
               </Grid>
               <Grid item xs={12}>

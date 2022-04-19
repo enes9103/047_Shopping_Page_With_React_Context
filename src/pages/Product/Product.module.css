@@ -59,8 +59,17 @@
 }
 
 .product img {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   box-shadow: 5px 10px 18px #4b2013;
   opacity: 0.9;
   border-radius: 5px;
+}
+.detailsNavIconDiv{
+  margin-left: 70px;
+}
+
+.detailsNavIcon {
+  margin-top: 100px;
+  cursor: pointer;
+  color: white;
 }

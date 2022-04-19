@@ -1,4 +1,4 @@
-import products from "../data";
+import products from "../helpers/data";
 import "./HomeScreen.css";
 import ProductCard from "../Components/ProductCard";
 
